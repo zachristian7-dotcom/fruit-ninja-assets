@@ -1,4 +1,13 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["vendors"],{"./node_modules/@enable3d/ammo-physics/dist/collisionEvents.js":
+window.Ammo = {
+  locateFile: (path) => {
+    if (path.endsWith(".wasm")) {
+      return "/assets/ammo/ammo.wasm";
+    }
+    return path;
+  }
+};
+(window.webpackJsonp=window.webpackJsonp||[]).push([["vendors"],
+{"./node_modules/@enable3d/ammo-physics/dist/collisionEvents.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/@enable3d/ammo-physics/dist/collisionEvents.js ***!
   \*********************************************************************/
